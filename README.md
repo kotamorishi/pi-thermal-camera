@@ -16,9 +16,14 @@ Clone this repo
 git clone https://github.com/kotamorishi/pi-thermal-camera
 ```
 
-Run
+Install some libraries.
 ```bash
 cd pi-thermal-camera
+./install.sh
+```
+
+Run
+```bash
 python3 thermal_cam.py
 ```
 
