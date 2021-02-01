@@ -1,1 +1,1 @@
-# pi-thermal-camera
+# Raspberry Pi thermal camera
