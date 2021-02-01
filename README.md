@@ -21,3 +21,6 @@ Run
 cd pi-thermal-camera
 python3 thermal_cam.py
 ```
+
+# Ta-da
+![Image of sample](https://github.com/kotamorishi/pi-thermal-camera/blob/main/images/1.jpg?raw=true)
