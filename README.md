@@ -10,3 +10,14 @@ Some libraries are marked as deprecated - however it still works fine.
 * Bitfield (https://github.com/adafruit/Adafruit_bitfield_python)
 * GPIO (https://github.com/adafruit/Adafruit_Python_GPIO)
 
+# How to run
+Clone this repo
+```bash
+git clone https://github.com/kotamorishi/pi-thermal-camera
+```
+
+Run
+```bash
+cd pi-thermal-camera
+python3 thermal_cam.py
+```
