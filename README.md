@@ -37,7 +37,10 @@ I hope that sensor might be able to measure the temp around 1m distance.(I am re
 # Correction with ToF sensor
 
 So I add VL53L0X to detect the renge and correct the value. It seems okay for my environment but it may not be accurate.
-
 Thanks for ToF range sensor VL53L0X (https://github.com/hoanhan101/vl53l0x)
 
+Run(Keyboard requires sudo)
+```bash
+sudo python3 thermal_cam_range.py
+```
 
