@@ -2,13 +2,14 @@
 
 Raspberry pi thermal camera using Adafruit_AMG88xx lib.
 
-# Adafruit libraries
+# Thanks Adafruit libraries
 Some libraries are marked as deprecated - however it still works fine.
 
 * AMG88xx (https://github.com/adafruit/Adafruit_AMG88xx_python)
 * PureIO (https://github.com/adafruit/Adafruit_Python_PureIO)
 * Bitfield (https://github.com/adafruit/Adafruit_bitfield_python)
 * GPIO (https://github.com/adafruit/Adafruit_Python_GPIO)
+Also the thermal_cam.py
 
 # How to run
 Clone this repo
@@ -35,6 +36,8 @@ The sensor read out is not adequate with range. It seems lower and lower with di
 I hope that sensor might be able to measure the temp around 1m distance.(I am really not sure it works or not)
 
 # Correction with ToF sensor
+
+  TBD
 
 So I add VL53L0X to detect the renge and correct the value. It seems okay for my environment but it may not be accurate.
 Thanks for ToF range sensor VL53L0X (https://github.com/hoanhan101/vl53l0x)
