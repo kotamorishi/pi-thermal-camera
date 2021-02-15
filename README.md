@@ -9,7 +9,9 @@ Some libraries are marked as deprecated - however it still works fine.
 * PureIO (https://github.com/adafruit/Adafruit_Python_PureIO)
 * Bitfield (https://github.com/adafruit/Adafruit_bitfield_python)
 * GPIO (https://github.com/adafruit/Adafruit_Python_GPIO)
+
 Also the thermal_cam.py
+
 
 # How to run
 Clone this repo
@@ -33,9 +35,10 @@ python3 thermal_cam.py
 
 # Problem
 The sensor read out is not adequate with range. It seems lower and lower with distance.
-I hope that sensor might be able to measure the temp around 1m distance.(I am really not sure it works or not)
+I hope that sensor to measure the surface temp at around 1m distance.
 
 # Correction with ToF sensor
+* VL53l0X api (https://github.com/bennington-hardware-hacking-2019/vl53l0x)
 
   TBD
 
