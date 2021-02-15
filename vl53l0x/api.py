@@ -175,8 +175,8 @@ class VL53L0X(object):
         effective_spad_rtn_count = make_uint16(raw_data[3], raw_data[2])
         device_range_status = raw_data[0]
 
-        print("range: {}\tsignal rate: {}\tambient rate: {}\tspad count: {}\trange status: {}"
-                .format(range_millimeter, signal_rate, ambient_rate, effective_spad_rtn_count, device_range_status))
+        #print("range: {}\tsignal rate: {}\tambient rate: {}\tspad count: {}\trange status: {}"
+        #        .format(range_millimeter, signal_rate, ambient_rate, effective_spad_rtn_count, device_range_status))
 
         # update measurement
         self.measurement = range_millimeter
