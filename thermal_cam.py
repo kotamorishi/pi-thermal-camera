@@ -67,7 +67,7 @@ while(1):
 	pixels = sensor.readPixels()
 	pixels = [map(p, MINTEMP, MAXTEMP, 0, COLORDEPTH - 1) for p in pixels]
 	
-	#perdorm interpolation
+	#perform interpolation
 	bicubic = griddata(points, pixels, (grid_x, grid_y), method='cubic')
 	
 	#draw everything
